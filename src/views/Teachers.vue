@@ -69,11 +69,25 @@ export default {
           name: "Агєєва-Каркашадзе Вікторія Олександрівна",
           telegram: "",
           email: "missis.ageeva@gmail.com",
-          courses: "Іноземна мова",
+          courses: "Іноземна мова (за професійним спрямуванням)",
           links: [
             {
               text: "Особисте посилання",
               url: "",
+            },
+          ],
+          consultations: "",
+          photoName: "default-avatar.jpg",
+        },
+        {
+          name: "Алексєєва Анна Олександрівна",
+          telegram: "",
+          email: "",
+          courses: "Безпека життєдіяльності, основи охорони праці та цивільний захист",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
             },
           ],
           consultations: "",
@@ -92,6 +106,15 @@ export default {
           ],
           consultations: "",
           photoName: "Antipova.jpg",
+        },
+        {
+          name: "Атланов Віктор Вікторович",
+          telegram: "",
+          email: "",
+          courses: "Мультимедіа і гейм-технології",
+          links: [],
+          consultations: "",
+          photoName: "default-avatar.jpg",
         },
         {
           name: "Бондаренко Стефанія Віталіївна",
@@ -137,7 +160,7 @@ export default {
           name: "Горбань Гліб Валентинович",
           telegram: "gleb_gorban",
           email: "hlib.horban@chmnu.edu.ua",
-          courses: "ООП, Операційні системи",
+          courses: "ООП, Операційні системи, Програмування під операційні системи",
           links: [
             {
               text: "Особисте посилання",
@@ -165,10 +188,25 @@ export default {
         },
 
         {
+          name: "Журавська Ірина Миколаївна",
+          telegram: "",
+          email: "",
+          courses: "Технологія захисту програм та даних",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/iyv-nkyo-uxj",
+            },
+          ],
+          consultations: "",
+          photoName: "default-avatar.jpg",
+        },
+
+        {
           name: "Кандиба Ігор Олександрович",
           telegram: "KandybaIhor",
           email: "ihor.kandyba@chmnu.edu.ua",
-          courses: "Мова програмування Python",
+          courses: "Мова програмування Python, Адміністрування обчислювальних комплексів",
           links: [
             {
               text: "Особисте посилання",
@@ -195,11 +233,21 @@ export default {
         },
 
         {
+          name: "Лисенкова Ірина Петрівна",
+          telegram: "",
+          email: "",
+          courses: "Психологія стресостійкості особистості",
+          links: [],
+          consultations: "",
+          photoName: "default-avatar.jpg",
+        },
+
+        {
           name: "Раленко Віктор Сергійович",
           telegram: "RalenkoVictor",
           email: "ralenko.v@chmnu.edu.ua  ",
           courses:
-            "Web development, Розробка програмного забезпечення для ОС Android",
+            "Web development, Розробка програмного забезпечення для ОС Android, FullStack web-розробка",
           links: [{ text: "Особисте посилання", url: "" }],
           consultations: "",
           photoName: "Ralenko.jpg",
@@ -223,6 +271,16 @@ export default {
 					links: [{ text: "Особисте посилання", url: "https://meet.google.com/xco-ukvh-wqn" }],
           consultations: "",
           photoName: "Salutin.jpg",
+        },
+
+        {
+          name: "Тогоєв Олександр Романович",
+          telegram: "",
+          email: "",
+          courses: "Технологія захисту програм та даних",
+          links: [],
+          consultations: "",
+          photoName: "default-avatar.jpg",
         },
 
         {

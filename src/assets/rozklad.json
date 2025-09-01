@@ -1,0 +1,424 @@
+{
+  "schedule": {
+    "monday": {
+      "1": { "subgroup1": null, "subgroup2": null },
+      "2": { "subgroup1": null, "subgroup2": null },
+      "3": { "subgroup1": null, "subgroup2": null },
+      "4": { "subgroup1": null, "subgroup2": null },
+      "5": { "subgroup1": null, "subgroup2": null },
+      "6": { "subgroup1": null, "subgroup2": null }
+    },
+    "tuesday": {
+      "1": {
+        "subgroup1": {
+          "name": "FullStack web-розробка",
+          "type": "лекція",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "",
+          "week": "over"
+        },
+        "subgroup2": {
+          "name": "FullStack web-розробка",
+          "type": "лекція",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "",
+          "week": "over"
+        }
+      },
+      "2": {
+        "subgroup1": {
+          "name": "Технологія захисту програм та даних",
+          "type": "лекція",
+          "teacher": "Журавська І.М.",
+          "teacherId": "zhuravska",
+          "link": "https://meet.google.com/iyv-nkyo-uxj",
+          "week": "over"
+        },
+        "subgroup2": {
+          "name": "Технологія захисту програм та даних",
+          "type": "лекція",
+          "teacher": "Журавська І.М.",
+          "teacherId": "zhuravska",
+          "link": "https://meet.google.com/iyv-nkyo-uxj",
+          "week": "over"
+        }
+      },
+      "3": {
+        "subgroup1": {
+          "name": "Моделювання та аналіз програмного забезпечення",
+          "type": "лекція",
+          "teacher": "Бондаренко С.В.",
+          "teacherId": "bondarenko",
+          "link": "https://meet.google.com/waf-ajkc-ydu",
+          "week": "over"
+        },
+        "subgroup2": {
+          "name": "Моделювання та аналіз програмного забезпечення",
+          "type": "лекція",
+          "teacher": "Бондаренко С.В.",
+          "teacherId": "bondarenko",
+          "link": "https://meet.google.com/waf-ajkc-ydu",
+          "week": "over"
+        }
+      },
+      "4": { "subgroup1": null, "subgroup2": null },
+      "5": { "subgroup1": null, "subgroup2": null },
+      "6": { "subgroup1": null, "subgroup2": null }
+    },
+    "tuesday_under": {
+      "1": {
+        "subgroup1": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "лекція",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "under"
+        },
+        "subgroup2": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "лекція",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "under"
+        }
+      },
+      "2": {
+        "subgroup1": {
+          "name": "Безпека життєдіяльності",
+          "type": "лекція",
+          "teacher": "Алексєєва А.О.",
+          "teacherId": "alekseeva",
+          "link": "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
+          "week": "under"
+        },
+        "subgroup2": {
+          "name": "Безпека життєдіяльності",
+          "type": "лекція",
+          "teacher": "Алексєєва А.О.",
+          "teacherId": "alekseeva",
+          "link": "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
+          "week": "under"
+        }
+      },
+      "3": {
+        "subgroup1": {
+          "name": "Програмування під операційні системи",
+          "type": "лекція",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "under"
+        },
+        "subgroup2": {
+          "name": "Програмування під операційні системи",
+          "type": "лекція",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "under"
+        }
+      },
+      "4": { "subgroup1": null, "subgroup2": null },
+      "5": { "subgroup1": null, "subgroup2": null },
+      "6": { "subgroup1": null, "subgroup2": null }
+    },
+    "wednesday": {
+      "1": {
+        "subgroup1": null,
+        "subgroup2": {
+          "name": "Програмування під операційні системи",
+          "type": "лекція",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "under"
+        }
+      },
+      "2": {
+        "subgroup1": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/waf-ajkc-ydu",
+          "week": "over"
+        },
+        "subgroup2": null
+      },
+      "3": {
+        "subgroup1": {
+          "name": "Програмування під операційні системи",
+          "type": "практична",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "Програмування під операційні системи",
+          "type": "практична",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "both"
+        }
+      },
+      "4": {
+        "subgroup1": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "Іноземна мова (за професійним спрямуванням)",
+          "type": "практична",
+          "teacher": "Агєєва-Каркашадзе В.О.",
+          "teacherId": "ageeva",
+          "link": "",
+          "week": "both"
+        }
+      },
+      "5": {
+        "subgroup1": null,
+        "subgroup2": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "over"
+        }
+      },
+      "6": { "subgroup1": null, "subgroup2": null }
+    },
+    "wednesday_under": {
+      "1": {
+        "subgroup1": {
+          "name": "Програмування під операційні системи",
+          "type": "практична",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "under"
+        },
+        "subgroup2": {
+          "name": "Програмування під операційні системи",
+          "type": "практична",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "under"
+        }
+      },
+      "2": {
+        "subgroup1": {
+          "name": "FullStack web-розробка",
+          "type": "практична",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "",
+          "week": "under"
+        },
+        "subgroup2": {
+          "name": "FullStack web-розробка",
+          "type": "практична",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "",
+          "week": "under"
+        }
+      },
+      "3": {
+        "subgroup1": {
+          "name": "Програмування під операційні системи",
+          "type": "практична",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "Програмування під операційні системи",
+          "type": "практична",
+          "teacher": "Горбань Г.В.",
+          "teacherId": "gorban",
+          "link": "",
+          "week": "both"
+        }
+      },
+      "4": {
+        "subgroup1": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "Іноземна мова (за професійним спрямуванням)",
+          "type": "практична",
+          "teacher": "Агєєва-Каркашадзе В.О.",
+          "teacherId": "ageeva",
+          "link": "",
+          "week": "both"
+        }
+      },
+      "5": {
+        "subgroup1": null,
+        "subgroup2": { "subgroup1": null, "subgroup2": null }
+      },
+      "6": { "subgroup1": null, "subgroup2": null }
+    },
+    "thursday": {
+      "1": { "subgroup1": null, "subgroup2": null },
+      "2": {
+        "subgroup1": {
+          "name": "Іноземна мова (за професійним спрямуванням)",
+          "type": "практична",
+          "teacher": "Агєєва-Каркашадзе В.О.",
+          "teacherId": "ageeva",
+          "link": "",
+          "week": "both"
+        },
+        "subgroup2": null
+      },
+      "3": {
+        "subgroup1": {
+          "name": "Моделювання та аналіз програмного забезпечення",
+          "type": "практична",
+          "teacher": "Бондаренко С.В.",
+          "teacherId": "bondarenko",
+          "link": "https://meet.google.com/waf-ajkc-ydu",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "Моделювання та аналіз програмного забезпечення",
+          "type": "практична",
+          "teacher": "Бондаренко С.В.",
+          "teacherId": "bondarenko",
+          "link": "https://meet.google.com/waf-ajkc-ydu",
+          "week": "both"
+        }
+      },
+      "4": {
+        "subgroup1": {
+          "name": "FullStack web-розробка",
+          "type": "практична",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "FullStack web-розробка",
+          "type": "практична",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "",
+          "week": "both"
+        }
+      },
+      "5": {
+        "subgroup1": null,
+        "subgroup2": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "both"
+        }
+      },
+      "6": { "subgroup1": null, "subgroup2": null }
+    },
+    "friday": {
+      "1": {
+        "subgroup1": {
+          "name": "Безпека життєдіяльності",
+          "type": "лекція",
+          "teacher": "Алексєєва А.О.",
+          "teacherId": "alekseeva",
+          "link": "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
+          "week": "over"
+        },
+        "subgroup2": null
+      },
+      "2": {
+        "subgroup1": {
+          "name": "Мультимедіа і гейм-технології",
+          "type": "лекція",
+          "teacher": "Атланов В.В.",
+          "teacherId": "atlanov",
+          "link": "",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "Мультимедіа і гейм-технології",
+          "type": "лекція",
+          "teacher": "Атланов В.В.",
+          "teacherId": "atlanov",
+          "link": "",
+          "week": "both"
+        }
+      },
+      "3": {
+        "subgroup1": {
+          "name": "Технологія захисту програм та даних",
+          "type": "практична",
+          "teacher": "Тогоєв О.Р.",
+          "teacherId": "togoev",
+          "link": "",
+          "week": "both"
+        },
+        "subgroup2": {
+          "name": "Технологія захисту програм та даних",
+          "type": "практична",
+          "teacher": "Тогоєв О.Р.",
+          "teacherId": "togoev",
+          "link": "",
+          "week": "both"
+        }
+      },
+      "4": {
+        "subgroup1": {
+          "name": "Психологія стресостійкості особистості",
+          "type": "практична",
+          "teacher": "Лисенкова І.П.",
+          "teacherId": "lysenkova",
+          "link": "",
+          "week": "both",
+          "room": "401, 471"
+        },
+        "subgroup2": {
+          "name": "Психологія стресостійкості особистості",
+          "type": "практична",
+          "teacher": "Лисенкова І.П.",
+          "teacherId": "lysenkova",
+          "link": "",
+          "week": "both",
+          "room": "401, 471"
+        }
+      },
+      "5": {
+        "subgroup1": null,
+        "subgroup2": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "under"
+        }
+      },
+      "6": { "subgroup1": null, "subgroup2": null }
+    }
+  }
+}

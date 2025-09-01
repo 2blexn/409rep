@@ -4,7 +4,7 @@ import { ref, onMounted, computed } from 'vue';
 
 const currentYear = new Date().getFullYear();
 const currentSemester = new Date().getMonth() >= 8 ? 1 : 2; 
-const semesterText = computed(() => currentSemester === 1 ? 'Весняний' : 'Осінній');
+const semesterText = computed(() => currentSemester === 1 ? 'Осінній' : 'Весняний');
 
 const isLoaded = ref(false);
 onMounted(() => {
