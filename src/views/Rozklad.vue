@@ -10,6 +10,7 @@ const schedule = ref(scheduleData.schedule);
 const isMobile = ref(false);
 const currentTime = ref(new Date());
 const currentPair = ref(null);
+const selectedSubgroup = ref("both"); // "both", "1", "2"
 
 // Функція для визначення поточного тижня (над/під рискою)
 const getCurrentWeek = () => {
@@ -106,6 +107,10 @@ const toggleWeek = () => {
   currentWeek.value = currentWeek.value === 1 ? 2 : 1;
 };
 
+const toggleSubgroup = (subgroup) => {
+  selectedSubgroup.value = subgroup;
+};
+
 const getWeekIndicator = (weekType) => {
   if (weekType === "over") return "↑";
   if (weekType === "under") return "↓";
@@ -121,6 +126,11 @@ const shouldShowLesson = (lesson, week) => {
   if (lesson.week === "under" && week === 2) return true;
   if (lesson.week === "even" && week === 2) return true;
   return false;
+};
+
+const shouldShowSubgroup = (subgroupNumber) => {
+  if (selectedSubgroup.value === "both") return true;
+  return selectedSubgroup.value === subgroupNumber.toString();
 };
 
 const getScheduleForDay = (dayKey, week) => {
@@ -346,7 +356,6 @@ const teachers = [
     consultations: "",
     photoName: "SHerstyuk.jpg",
   },
-  // Нові викладачі
   {
     id: "zhuravska",
     name: "Журавська Ірина Миколаївна",
@@ -367,7 +376,7 @@ const teachers = [
     name: "Алексєєва Анна Олександрівна",
     telegram: "",
     email: "",
-    courses: "Безпека життєдіяльності, основи охорони праці та цивільний захист",
+    courses: "Безпека життєдіяльності",
     links: [
       {
         text: "Особисте посилання",
@@ -380,12 +389,12 @@ const teachers = [
   {
     id: "atlanov",
     name: "Атланов Віктор Вікторович",
-    telegram: "",
+    telegram: "atlanoff",
     email: "",
     courses: "Мультимедіа і гейм-технології",
     links: [],
     consultations: "",
-    photoName: "default-avatar.jpg",
+    photoName: "atlanov.jpg",
   },
   {
     id: "togoev",
@@ -462,6 +471,31 @@ onMounted(() => {
       <div class="current-week">
         Поточний тиждень: <span class="week-highlight">{{ getCurrentWeek() === 1 ? 'над рискою' : 'під рискою' }}</span>
       </div>
+      
+      <!-- Фільтр підгруп -->
+      <div class="subgroup-filter">
+        <button 
+          @click="toggleSubgroup('both')" 
+          class="subgroup-btn"
+          :class="{ active: selectedSubgroup === 'both' }"
+        >
+          Обидві підгрупи
+        </button>
+        <button 
+          @click="toggleSubgroup('1')" 
+          class="subgroup-btn"
+          :class="{ active: selectedSubgroup === '1' }"
+        >
+          1-ша підгрупа
+        </button>
+        <button 
+          @click="toggleSubgroup('2')" 
+          class="subgroup-btn"
+          :class="{ active: selectedSubgroup === '2' }"
+        >
+          2-га підгрупа
+        </button>
+      </div>
       <!-- <div class="displayed-schedule">
         Показано розклад за тиждень: <span class="schedule-highlight">{{ currentWeek === 1 ? 'над' : 'під' }} рискою</span>
       </div> -->
@@ -505,7 +539,8 @@ onMounted(() => {
                 <!-- Перевіряємо чи однакові пари в обох підгрупах -->
                 <template v-if="isSameLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup1, getScheduleForDay(day.key, currentWeek)[pair.number].subgroup2) && 
                                shouldShowLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup1, currentWeek) && 
-                               shouldShowLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup2, currentWeek)">
+                               shouldShowLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup2, currentWeek) &&
+                               shouldShowSubgroup(1) && shouldShowSubgroup(2)">
                   <!-- Спільна пара для обох підгруп -->
                   <div class="subgroup-lesson common">
                     <div class="lesson-header">
@@ -540,7 +575,7 @@ onMounted(() => {
                   <div class="subgroups-container">
                     <!-- Перша підгрупа -->
                     <div 
-                      v-if="shouldShowLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup1, currentWeek)"
+                      v-if="shouldShowLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup1, currentWeek) && shouldShowSubgroup(1)"
                       class="subgroup-lesson subgroup1"
                     >
                       <div class="lesson-header">
@@ -571,7 +606,7 @@ onMounted(() => {
 
                     <!-- Друга підгрупа -->
                     <div 
-                      v-if="shouldShowLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup2, currentWeek)"
+                      v-if="shouldShowLesson(getScheduleForDay(day.key, currentWeek)[pair.number].subgroup2, currentWeek) && shouldShowSubgroup(2)"
                       class="subgroup-lesson subgroup2"
                     >
                       <div class="lesson-header">
@@ -734,6 +769,36 @@ onMounted(() => {
 
 .week-btn.active {
   background: rgb(7, 153, 80);
+  color: white;
+}
+
+.subgroup-filter {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.subgroup-btn {
+  padding: 8px 16px;
+  border: 2px solid #4ecdc4;
+  background: transparent;
+  color: #4ecdc4;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.subgroup-btn:hover {
+  background: #4ecdc4;
+  color: white;
+}
+
+.subgroup-btn.active {
+  background: #4ecdc4;
   color: white;
 }
 
@@ -1309,6 +1374,18 @@ a:hover {
     width: 200px;
   }
   
+  .subgroup-filter {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .subgroup-btn {
+    width: 180px;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+  
   .mobile-day-selector {
     display: block;
   }
@@ -1490,6 +1567,12 @@ a:hover {
     width: 180px;
     padding: 8px 16px;
     font-size: 0.9rem;
+  }
+  
+  .subgroup-btn {
+    width: 160px;
+    font-size: 0.8rem;
+    padding: 5px 10px;
   }
   
   .current-week {

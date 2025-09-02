@@ -181,7 +181,7 @@
           "type": "практична",
           "teacher": "Агєєва-Каркашадзе В.О.",
           "teacherId": "ageeva",
-          "link": "",
+          "link": "https://us04web.zoom.us/j/8848681680?pwd=eXJRRDN3Nk1JclBIRlRrMmRhWUxtQT09",
           "week": "both"
         }
       },
@@ -285,7 +285,7 @@
           "type": "практична",
           "teacher": "Агєєва-Каркашадзе В.О.",
           "teacherId": "ageeva",
-          "link": "",
+          "link": "https://us04web.zoom.us/j/8848681680?pwd=eXJRRDN3Nk1JclBIRlRrMmRhWUxtQT09",
           "week": "both"
         },
         "subgroup2": null
@@ -349,7 +349,14 @@
           "link": "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
           "week": "over"
         },
-        "subgroup2": null
+        "subgroup2": {
+          "name": "Безпека життєдіяльності",
+          "type": "лекція",
+          "teacher": "Алексєєва А.О.",
+          "teacherId": "alekseeva",
+          "link": "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
+          "week": "over"
+        }
       },
       "2": {
         "subgroup1": {

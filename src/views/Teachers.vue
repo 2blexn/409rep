@@ -83,7 +83,7 @@ export default {
           name: "Алексєєва Анна Олександрівна",
           telegram: "",
           email: "",
-          courses: "Безпека життєдіяльності, основи охорони праці та цивільний захист",
+          courses: "Безпека життєдіяльності",
           links: [
             {
               text: "Особисте посилання",
@@ -109,12 +109,12 @@ export default {
         },
         {
           name: "Атланов Віктор Вікторович",
-          telegram: "",
+					telegram: "atlanoff",
           email: "",
           courses: "Мультимедіа і гейм-технології",
           links: [],
           consultations: "",
-          photoName: "default-avatar.jpg",
+          photoName: "atlanov.jpg",
         },
         {
           name: "Бондаренко Стефанія Віталіївна",
