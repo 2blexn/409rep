@@ -309,20 +309,20 @@
         }
       },
       "4": {
-        "subgroup1": {
-          "name": "FullStack web-розробка",
+       "subgroup1": {
+          "name": "Технологія захисту програм та даних",
           "type": "практична",
-          "teacher": "Раленко В.С.",
-          "teacherId": "ralenko",
-          "link": "https://meet.google.com/fhu-hdbz-xcm",
+          "teacher": "Тогоєв О.Р.",
+          "teacherId": "togoev",
+          "link": "",
           "week": "both"
         },
         "subgroup2": {
-          "name": "FullStack web-розробка",
+          "name": "Технологія захисту програм та даних",
           "type": "практична",
-          "teacher": "Раленко В.С.",
-          "teacherId": "ralenko",
-          "link": "https://meet.google.com/fhu-hdbz-xcm",
+          "teacher": "Тогоєв О.Р.",
+          "teacherId": "togoev",
+          "link": "",
           "week": "both"
         }
       },
@@ -343,7 +343,7 @@
       "1": {
         "subgroup1": {
           "name": "Безпека життєдіяльності",
-          "type": "лекція",
+          "type": "практична",
           "teacher": "Алексєєва А.О.",
           "teacherId": "alekseeva",
           "link": "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
@@ -351,7 +351,7 @@
         },
         "subgroup2": {
           "name": "Безпека життєдіяльності",
-          "type": "лекція",
+          "type": "практична",
           "teacher": "Алексєєва А.О.",
           "teacherId": "alekseeva",
           "link": "https://us02web.zoom.us/j/8357252104?pwd=TlFVOXdBKzk0cERhb280czR4bG5tQT09",
@@ -378,19 +378,19 @@
       },
       "3": {
         "subgroup1": {
-          "name": "Технологія захисту програм та даних",
+          "name": "FullStack web-розробка",
           "type": "практична",
-          "teacher": "Тогоєв О.Р.",
-          "teacherId": "togoev",
-          "link": "",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "https://meet.google.com/fhu-hdbz-xcm",
           "week": "both"
         },
         "subgroup2": {
-          "name": "Технологія захисту програм та даних",
+          "name": "FullStack web-розробка",
           "type": "практична",
-          "teacher": "Тогоєв О.Р.",
-          "teacherId": "togoev",
-          "link": "",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "https://meet.google.com/fhu-hdbz-xcm",
           "week": "both"
         }
       },
