@@ -383,17 +383,17 @@
        "subgroup1": {
           "name": "Технологія захисту програм та даних",
           "type": "практична",
-          "teacher": "Тогоєв О.Р.",
-          "teacherId": "togoev",
-          "link": "",
+          "teacher": "Журавська І.М.",
+          "teacherId": "zhuravska",
+          "link": "https://meet.google.com/iyv-nkyo-uxj",
           "week": "both"
         },
         "subgroup2": {
           "name": "Технологія захисту програм та даних",
           "type": "практична",
-          "teacher": "Тогоєв О.Р.",
-          "teacherId": "togoev",
-          "link": "",
+          "teacher": "Журавська І.М.",
+          "teacherId": "zhuravska",
+          "link": "https://meet.google.com/iyv-nkyo-uxj",
           "week": "both"
         }
       },
