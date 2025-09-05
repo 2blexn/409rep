@@ -187,37 +187,12 @@
       },
       "5": {
         "subgroup1": null,
-        "subgroup2": {
-          "name": "Адміністрування обчислювальних комплексів",
-          "type": "практична",
-          "teacher": "Кандиба І.О.",
-          "teacherId": "kandiba",
-          "link": "https://meet.google.com/wau-wiwx-rsq",
-          "week": "over"
-        }
+        "subgroup2": null
       },
       "6": { "subgroup1": null, "subgroup2": null }
     },
     "wednesday_under": {
       "1": {
-        "subgroup1": {
-          "name": "FullStack web-розробка",
-          "type": "практична",
-          "teacher": "Раленко В.С.",
-          "teacherId": "ralenko",
-          "link": "https://meet.google.com/fhu-hdbz-xcm",
-          "week": "under"
-        },
-        "subgroup2": {
-          "name": "FullStack web-розробка",
-          "type": "практична",
-          "teacher": "Раленко В.С.",
-          "teacherId": "ralenko",
-          "link": "https://meet.google.com/fhu-hdbz-xcm",
-          "week": "under"
-        }
-      },
-      "2": {
        "subgroup1": {
           "name": "Програмування під операційні системи",
           "type": "практична",
@@ -232,6 +207,24 @@
           "teacher": "Горбань Г.В.",
           "teacherId": "gorban",
           "link": "https://meet.google.com/ntv-xafm-imh",
+          "week": "under"
+        }
+      },
+      "2": {
+        "subgroup1": {
+          "name": "FullStack web-розробка",
+          "type": "практична",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "https://meet.google.com/fhu-hdbz-xcm",
+          "week": "under"
+        },
+        "subgroup2": {
+          "name": "FullStack web-розробка",
+          "type": "практична",
+          "teacher": "Раленко В.С.",
+          "teacherId": "ralenko",
+          "link": "https://meet.google.com/fhu-hdbz-xcm",
           "week": "under"
         }
       },
@@ -273,7 +266,14 @@
       },
       "5": {
         "subgroup1": null,
-        "subgroup2": { "subgroup1": null, "subgroup2": null }
+        "subgroup2": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "under"
+        }
       },
       "6": { "subgroup1": null, "subgroup2": null }
     },
@@ -287,7 +287,14 @@
           "link": "https://us04web.zoom.us/j/8848681680?pwd=eXJRRDN3Nk1JclBIRlRrMmRhWUxtQT09",
           "week": "both"
         },
-				 "subgroup2": null 
+				  "subgroup2": {
+          "name": "Адміністрування обчислювальних комплексів",
+          "type": "практична",
+          "teacher": "Кандиба І.О.",
+          "teacherId": "kandiba",
+          "link": "https://meet.google.com/wau-wiwx-rsq",
+          "week": "both"
+        }
 				},
       "2": {
                 "subgroup1": {
@@ -327,14 +334,7 @@
       },
       "4": {
 				"subgroup1": null,
-        "subgroup2": {
-          "name": "Адміністрування обчислювальних комплексів",
-          "type": "практична",
-          "teacher": "Кандиба І.О.",
-          "teacherId": "kandiba",
-          "link": "https://meet.google.com/wau-wiwx-rsq",
-          "week": "both"
-        }
+        "subgroup2": null
       },
       "5": {
         "subgroup1": null,
